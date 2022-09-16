@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Catalog from './pages/catalog';
-import CatalogId from './pages/catalogId';
+// import CatalogId from './pages/catalogId';
 import Login from './pages/auth/login';
 import Register from './pages/auth/register';
 import Dashboard from './pages/dashboard';
