@@ -1,0 +1,30 @@
+{
+  "products": [
+    {
+      "name": "Xxxxx",
+      "detail": "Xxxxx",
+      "price": "Xxxxx",
+      "id": "1"
+    }
+  ],
+  "users": [
+    {
+      "username": "Rifqy",
+      "email": "2ndrifqy@gmail.com",
+      "password": "4321S1234lol",
+      "id": 1
+    },
+    {
+      "email": "user@gmail.com",
+      "password": "$2a$10$btd9.WQIg1kCVXNiHMfQ0uje.nCa7scpDiQM1cAQKklxjdPN66ctm",
+      "username": "user",
+      "id": 2
+    },
+    {
+      "email": "mimin@gmail.com",
+      "password": "$2a$10$dxC/wAcZwJnQ6k70YmLvruX9plhKQ02cj8nHGKFMgRU07GSHz/Bqm",
+      "username": "mimin",
+      "id": 3
+    }
+  ]
+}

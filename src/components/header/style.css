@@ -1,0 +1,21 @@
+.navbar-3 {
+    z-index: 9999 !important;
+    padding: 0px 0px !important;
+    background-color: transparent !important;
+}
+
+.navbar-3 .container-3 {
+    padding: 0px !important;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.navbar-3 .container-3 .brand-3 {
+    margin-left: 5px;
+}
+
+.brand-3 img {
+    height: 60px;
+    width: 60px;
+}
+          
+    
