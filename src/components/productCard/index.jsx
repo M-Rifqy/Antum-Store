@@ -3,7 +3,8 @@ import '../../pages/catalog/style.css';
 import { 
   IoHeartOutline,
   IoBagAddOutline,
-  IoStarOutline
+  IoStarOutline,
+  IoStar
 } from 'react-icons/io5';
 
 export default function ProductCard() {
@@ -11,7 +12,7 @@ export default function ProductCard() {
     <>              
     <a href='/#' className="showcase">
     <div className="showcase-banner">
-      <img src={require('../../assets/deterjen.png')} className="product-img" alt="product"/>
+      <img src={require('../../assets/bg.gif')} className="product-img" alt="product"/>
       <p className="showcase-badge product-label">NEW</p>
       <div className="showcase-actions">
         <button className="btn-action">
@@ -25,18 +26,18 @@ export default function ProductCard() {
     <div className="showcase-content">
       <a href="/#" className='showcase-category'>XXXXX</a>
       <a href="/#">
-        <h3 className='showcase-title'>Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx Xxxxx</h3>
+        <h3 className='showcase-title'>xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx xxxxx</h3>
       </a>
       <div className="showcase-rating">
-        <IoStarOutline/>
-        <IoStarOutline/>
-        <IoStarOutline/>
-        <IoStarOutline/>
+        <IoStar/>
+        <IoStar/>
+        <IoStar/>
+        <IoStar/>
         <IoStarOutline/>
       </div>
       <div className="price-box">
-        <p className='price'>Rp.Xxxxx</p>
-        {/* <del>Rp.Xxxxx</del> */}
+        <p className='price'>$Xxxxx</p>
+        <del>$Xxxxx</del>
       </div>
     </div>
   </a>

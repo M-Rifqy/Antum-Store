@@ -1,14 +1,17 @@
 import React from 'react';
 import './style.css';
-import Banner from '../../components/banner';
 import ProductCard from '../../components/productCard';
 import Navigation from '../../components/navbar';
+import Slider from '../../components/carousel';
+import Footer from '../../components/footer';
+import Category from '../../components/category';
 
 export default function Catalog() {
   return (
     <>
       <Navigation />
-      <Banner />
+      <Slider />
+      <Category />
 
       <div class='product-container'>
         <div class='container'>
@@ -16,10 +19,19 @@ export default function Catalog() {
             <h2 className='title'>Products</h2>
             <div className='product-grid'>
               <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
             </div>
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }

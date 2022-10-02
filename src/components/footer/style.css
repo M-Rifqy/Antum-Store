@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #e2e7e9;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.footer p {
+    display: flex;
+    gap: 5px;
+}
+
+p .me {
+    color: #000;
+}
+
+p .me:hover {
+    color: #000;
+    text-decoration: underline !important;
+}

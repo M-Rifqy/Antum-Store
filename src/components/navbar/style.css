@@ -1,32 +1,7 @@
-/* Reset */
 *, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.whatsapp-container {
-  display: inline-block;
-  padding: 5px;
-  background-color: hsl(0, 0%, 95%);
-  border-radius: 5px;
-  color: hsl(0, 0%, 47%);
-}
-
-.whatsapp-container:hover{
-  color: hsl(0, 0%, 47%);
-}
-
-.header-alert .whatsapp-phone-number {
-  display: inline-block;
-  position: relative;
-  top: -8px;
-  color: hsl(0, 0%, 47%);
-  font-size: 0.875rem;
-}
-
-.header-alert .whatsapp-phone-number:hover {
-  text-decoration: underline !important;
 }
 
 a { 
@@ -62,8 +37,6 @@ input::-ms-input-placeholder { font: inherit; }
 
 input::placeholder { font: inherit; }
 
-
-/* REUSED STYLES */
 .container { padding: 0 15px; }
 
 .has-scrollbar { padding-bottom: 5px; }
@@ -118,7 +91,7 @@ input::placeholder { font: inherit; }
 .auth-dropdown .auth-dropdown-content .auth-dropdown-item {
   border-radius: 5px;
   margin: 5px;
-  font-size: 15px;
+  font-size: 13px;
   padding: 10px 15px;
   cursor: pointer;
   transition: all 0.3s;
@@ -380,14 +353,9 @@ input::placeholder { font: inherit; }
 @media (min-width: 480px) {
   .header-top {
     display: block;
-    padding: 10px 0;
+    padding-top: 15px;
     border-bottom: 1px solid hsl(0, 0%, 93%);
   }
-
-  /* .header-social-container,
-  .header-top-actions {
-    display: none;
-  } */
 
   .header-social-container {
     display: flex;
@@ -408,11 +376,29 @@ input::placeholder { font: inherit; }
     color: hsl(0, 100%, 100%);
   }
 
-  /* .header-alert {
+  .whatsapp-container {
+    display: inline-block;
+    padding: 5px;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 5px;
     color: hsl(0, 0%, 47%);
-    font-size: 0.75rem;
-    text-transform: uppercase;
-  } */
+  }
+  
+  .whatsapp-container:hover{
+    color: hsl(0, 0%, 47%);
+  }
+  
+  .header-alert .whatsapp-phone-number {
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    color: hsl(0, 0%, 47%);
+    font-size: 0.875rem;
+  }
+  
+  .header-alert .whatsapp-phone-number:hover {
+    text-decoration: underline !important;
+  }
 
   .header-main {
     padding: 25px 0;
@@ -423,10 +409,9 @@ input::placeholder { font: inherit; }
     border-top-right-radius: 10px;
   }
 
-
 }
 
-@media (min-width: 570px) {
+@media (min-width: 500px) {
   .header-top .container, .header-main .container {
     display: flex;
     justify-content: space-between;

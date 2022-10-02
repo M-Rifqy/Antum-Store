@@ -1,0 +1,8 @@
+.col, .c-a, .c-p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    text-align: center;
+}
